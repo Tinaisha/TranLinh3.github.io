@@ -24,7 +24,7 @@ img {
 }
 
 img.profile {
-  width: 150px;
+  width: 200px;
   height: auto;
   border-radius: 0;
 }
@@ -69,6 +69,7 @@ h2 {
   margin: 0 auto;
   padding: 40px;
 }
+
 
 
 
