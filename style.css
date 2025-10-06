@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 400px; /* Portrait width */
+  max-width: 360; /* Portrait width */
   padding: 20px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
@@ -62,6 +62,7 @@ h2 {
   margin-left: 20px;
   padding-left: 20px;
 }
+
 
 
 
