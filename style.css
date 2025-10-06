@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 400px; /* Portrait width */
+  max-width: 200px; /* Portrait width */
   padding: 20px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -62,4 +62,5 @@ h2 {
   margin-left: 20px;
   padding-left: 20px;
 }
+
 
