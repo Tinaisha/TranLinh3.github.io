@@ -63,6 +63,12 @@ h2 {
   padding-left: 20px;
 }
 
+.fullpage {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
 
 
 
