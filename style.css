@@ -74,3 +74,35 @@ footer {
   font-size: 14px;
   color: #999;
 }
+
+.topnav {
+  background-color: #333;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav li {
+  margin: 0 20px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
