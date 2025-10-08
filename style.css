@@ -120,10 +120,6 @@ footer {
   align-items: center;
 }
 
-.dropdown-header strong {
-  font-size: 16px;
-}
-
 .arrow {
   font-size: 18px;
   transition: transform 0.3s ease;
@@ -143,4 +139,6 @@ footer {
 .dropdown.open .arrow {
   transform: rotate(180deg);
 }
+
+
 
