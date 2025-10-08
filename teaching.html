@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dropdowns = document.querySelectorAll(".dropdown");
+
+    dropdowns.forEach(dropdown => {
+      const header = dropdown.querySelector(".dropdown-header");
+      header.addEventListener("click", () => {
+        dropdown.classList.toggle("open");
+      });
+    });
+  });
+</script>
+
+<body>
+
+  <nav class="topnav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Research</a></li>
+      <li><a href="about.html">Teaching</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+  <h1>Projects</h1>
+
+  <section>
+    <ul>
+      <li class="dropdown">
+  <div class="dropdown-header">
+    <strong>McGill University</strong>
+    <span class="arrow">&#9660;</span>
+  </div>
+  <div class="dropdown-content">
+    <p>
+          Teaching Assistant, Econometrics (graduate), Fall 2021– Fall 2023 <br>
+          Teaching Assistant, Quantitative Methods (graduate), Fall 2021, Fall 2022 and Fall 2023<br>
+          Teaching Assistant, Applied Cross-Sectional Methods (graduate), Winter 2024<br>
+          Teaching Assistant, Economic Statistics (undergraduate), Fall 2024 – Winter 2025
+    </p>
+  </div>
+</li>
+      <br><br> 
+             
+<li class="dropdown">
+  <div class="dropdown-header">
+    <strong>University of Queensland</strong>
+    <span class="arrow">&#9660;</span>
+  </div>    
+  <div class="dropdown-content">
+    <p>
+          Teaching Assistant, Introduction to Econometrics (undergraduate), 2018– 2019           
+    </p>
+  </div>
+
+</ul>
+  </section>
+
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
