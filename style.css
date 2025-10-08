@@ -37,12 +37,13 @@ h1 {
 }
 
 .profile {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
+  width: 300px;         /* Increase size */
+  height: auto;         /* Maintain aspect ratio */
+  object-fit: contain;  /* Prevent cropping */
+  border-radius: 8px;   /* Optional: rounded corners */
   margin-bottom: 20px;
 }
+
 
 .links h2 {
   font-size: 20px;
@@ -105,4 +106,5 @@ footer {
 .topnav a:hover {
   text-decoration: underline;
 }
+
 
